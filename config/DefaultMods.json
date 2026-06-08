@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "defaultMods": [
+    {
+      "modName": "Traffic Overhaul",
+      "isDefault": true,
+      "description": "Control traffic density and aggression levels",
+      "version": "1.0.0",
+      "requiredFiles": ["traffic_config.ini", "traffic_overhaul.dll"],
+      "loadOrder": 0
+    },
+    {
+      "modName": "Police AI",
+      "isDefault": true,
+      "description": "Adjust wanted level response and pursuit mechanics",
+      "version": "1.0.0",
+      "requiredFiles": ["police_config.ini", "police_ai.dll"],
+      "loadOrder": 1
+    },
+    {
+      "modName": "Driving Physics",
+      "isDefault": true,
+      "description": "Customize vehicle handling, grip, and suspension",
+      "version": "1.0.0",
+      "requiredFiles": ["physics_config.ini", "driving_physics.dll"],
+      "loadOrder": 2
+    },
+    {
+      "modName": "Economy",
+      "isDefault": true,
+      "description": "Modify mission rewards, costs, and prices",
+      "version": "1.0.0",
+      "requiredFiles": ["economy_config.ini", "economy.dll"],
+      "loadOrder": 3
+    },
+    {
+      "modName": "Graphics",
+      "isDefault": true,
+      "description": "Enhance visual settings and graphics",
+      "version": "1.0.0",
+      "requiredFiles": ["graphics_config.ini", "graphics.dll"],
+      "loadOrder": 4
+    }
+  ]
+}
